@@ -37,6 +37,8 @@ $stmt->execute([$nombre, $precio, $stock]);
     <title>Artikulu berria</title>
 </head>
 <body>
+<a href="index.php">Hasiera</a>
+<br><br>
 
 <h1>Artikulu berria</h1>
 

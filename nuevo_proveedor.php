@@ -34,6 +34,9 @@ $stmt->execute([$nombre, $email, $telefono]);
 </head>
 <body>
 
+<a href="index.php">Hasiera</a>
+<br><br>
+
 <h1>Hornitzaile berria</h1>
 
 <form method="POST">

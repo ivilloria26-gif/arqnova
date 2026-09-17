@@ -14,6 +14,8 @@ $resultado = $conexion->query($sql);
 </head>
 <body>
 
+<a href="index.php">Hasiera</a>
+<br><br>
 <h1>Hornitzaileak</h1>
 
 <table border="1">

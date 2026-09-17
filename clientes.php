@@ -14,6 +14,9 @@ $resultado = $conexion->query($sql);
 </head>
 <body>
 
+<a href="index.php">Hasiera</a>
+<br><br>
+
 <h1>Bezeroak</h1>
 
 <table border="1">
