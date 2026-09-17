@@ -15,6 +15,10 @@ if (!is_numeric($precio) || !is_numeric($stock)) {
     echo "Prezioa eta stocka zenbakiak izan behar dira";
     exit;
 }
+if ($precio < 0 || $stock < 0) {
+    echo "Prezioa eta stocka ezin dira negatiboak izan";
+    exit;
+}
 
 $sql = "UPDATE articulos
         SET nombre = ?, precio = ?, stock = ?

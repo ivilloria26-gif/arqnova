@@ -4,6 +4,9 @@ require "conexion.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST["id"];
+if (!filter_var($id, FILTER_VALIDATE_INT)) {    echo "ID ez da zuzena";
+    exit;
+}
 
    $sql = "DELETE FROM articulos WHERE id = ?";
 $stmt = $conexion->prepare($sql);
